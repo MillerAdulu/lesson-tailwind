@@ -1,0 +1,14 @@
+{
+  "name": "lesson-tailwind",
+  "version": "1.0.0",
+  "description": "A cool Tailwind UI project",
+  "author": "Miller Adulu",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
